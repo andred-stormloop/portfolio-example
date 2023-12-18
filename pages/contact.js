@@ -48,7 +48,7 @@ const Contact = () => {
     return (
         <div className='flex items-center'>
             <Head>
-                <title>Contact | Prasad Chavan</title>
+                <title>Contact | William Fitzwater</title>
             </Head>
             <div className='h-screen max-w-screen-xl px-4 py-16 mx-auto md:pt-32 md:p-20'>
                 <div className='grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5'>
@@ -64,19 +64,19 @@ const Contact = () => {
                             LinkedIn:{' '}
                             <a
                                 className='text-blue-500 hover:underline'
-                                href='https://www.linkedin.com/in/prasad-chavan2003/'
+                                href='https://www.linkedin.com/in/William-Fitzwater2003/'
                                 target='_blank'
                                 rel='noopener noreferrer'
                             >
-                                /in/prasad-chavan2003/
+                                /in/William-Fitzwater2003/
                             </a>{' '}
                             <br />
                             Email:{' '}
                             <a
                                 className='text-blue-500 hover:underline'
-                                href='mailto:askokc4321@gmail.com'
+                                href='mailto:william_fitzwater@yahoo.com'
                             >
-                                askokc4321@gmail.com
+                                william_fitzwater@yahoo.com
                             </a>
                         </p>
                     </div>

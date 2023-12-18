@@ -21,7 +21,7 @@ const Navbar = () => {
                                 <h1 className=' font-bold text-xl cursor-pointer'>
                                     <Link href='/'>
                                         <a className='text-2xl pl-8 sm:pl-0'>
-                                            Prasad<span className='text-blue-500'>Chavan</span>
+                                            William<span className='text-blue-500'>Fitzwater</span>
                                         </a>
                                     </Link>
                                 </h1>
@@ -61,29 +61,19 @@ const Navbar = () => {
                                             <a>Projects</a>
                                         </Link>
                                     </h1>
-                                    <h1
-                                        className={
-                                        router.pathname == '/blog'
-                                            ? 'text-blue-500'
-                                            : 'cursor-pointer hover:text-blue-500'
-                                    }
-                                    >
-                                        <Link id='blog' href='/blog'>
-                                            <a>Blog</a>
-                                        </Link>
-                                    </h1>
+                                
                                 </div>
                             </div>
 
                             <div className= 'flex justify-center items-center flex-shrink-0 md:block'>
                                 <div className='flex space-x-4'>
                                     <div>
-                                        <a href='https://github.com/prasad-chavan1' target='_blank' rel='noopener noreferrer'>
+                                        <a href='https://git.generalassemb.ly/williamfitzit' target='_blank' rel='noopener noreferrer'>
                                             <BsGithub className='hidden md:block' size='2rem' />
                                         </a>
                                     </div>
                                     <div>
-                                        <a href='https://www.linkedin.com/in/prasad-chavan2003/'
+                                        <a href='https://www.linkedin.com/in/william-fitzwater/'
                                             target='_blank'
                                             rel='noopener noreferrer'
                                         >
@@ -157,28 +147,18 @@ const Navbar = () => {
                                             <a onClick={handleMobileNav}>Projects</a>
                                         </Link>
                                     </h1>
-                                    <h1
-                                        className={
-                                        router.pathname == '/blog'
-                                            ? 'text-blue-500'
-                                            : 'cursor-pointer hover:text-blue-500'
-                                    }
-                                    >
-                                        <Link id='blog' href='/blog'>
-                                            <a onClick={handleMobileNav}>Blog</a>
-                                        </Link>
-                                    </h1>
+                                    
                                 </div>
                                 <div className='space-x-4 pt-20'>
                                     <div className='flex space-x-4'>
                                         <div className='rounded shadow-lg shadow-gray-400 p-3 cursor-pointer'>
-                                            <a href='https://github.com/prasad-chavan1' target='_blank' rel='noopener noreferrer'>
+                                            <a href='https://git.generalassemb.ly/williamfitzit' target='_blank' rel='noopener noreferrer'>
                                                 <BsGithub size='2rem' />
                                             </a>
                                         </div>
                                         <div className='rounded shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                             <a
-                                                href='https://www.linkedin.com/in/prasad-chavan2003/'
+                                                href='https://www.linkedin.com/in/william-fitzwater/'
                                                 target='_blank'
                                                 rel='noopener noreferrer'
                                             >

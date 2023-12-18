@@ -75,9 +75,6 @@ const Skills = () => {
               React
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              Bluma CSS
-            </li>
-            <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <FaHtml5 size="40px" />
               HTML
             </li>
@@ -112,23 +109,18 @@ const Skills = () => {
 
           <ul className="flex items-center flex-row gap-8 flex-wrap mb-2 bg-blue-50 p-8 rounded-2xl">
             <span className="text-blue-500 text-2xl w-full text-center lg:w-fit">Other</span>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              C
-            </li>
-            <li className="text-xl font-bold flex justify-center items-center flex-col">
-              C++
-            </li>
+
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <FaGithub size="40px" />
               git/GitHub
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               
-              Analytics
+              Ne
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <FaAws size="40px" />
-              AWS
+              Heroku
             </li>
           </ul>
         </div>
